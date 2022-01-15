@@ -8,7 +8,15 @@
     "type": "git",
     "url": "git+https://github.com/homebots/typescript-config.git"
   },
-  "keywords": [],
+  "publishConfig": {
+    "access": "public"
+  },
+  "release": {
+    "branches": [
+      "main",
+      "next"
+    ]
+  },
   "author": "Darlan Alves <me@darlanalv.es>",
   "license": "MIT",
   "bugs": {
